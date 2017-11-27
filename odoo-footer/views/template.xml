@@ -1,0 +1,28 @@
+<?xml version="1.0"?> 
+<odoo>
+    
+    <template id="assets_backend" name="custom assets" inherit_id="web.assets_backend"> 
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/odoo-footer/static/src/css/styles.css"/>
+        </xpath> 
+    </template>
+    
+    <template id="main_footer" name="Main Footer" inherit_id="web.webclient_bootstrap"> 
+        <xpath expr="//div[@class='o_main']" position="after">
+            <div class="demo_footer">
+                <div class="cols">
+                    Pakistan
+                </div>
+                <div class="cols">
+                    Means
+                </div>
+                <div class="cols">
+                    Green
+                </div>
+                <br class="clearfloat" />
+            </div>
+        </xpath> 
+    </template>
+
+</odoo>
+
