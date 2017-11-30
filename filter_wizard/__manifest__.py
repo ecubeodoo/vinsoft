@@ -1,6 +1,6 @@
 {
-	'name': 'Odoo Footer', 
-	'description': 'Change the content from the css file in static folder. Please use only three words.', 
+	'name': 'Filter Wizard', 
+	'description': 'Fiters accounts tree view on the basis of dates provided in Wizard', 
 	'author': 'ECUBE', 
 	'depends': ['base','web','account'], 
 	'application': True,
